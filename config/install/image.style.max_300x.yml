@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-name: max_300
+name: max_300x
 label: '300'
 effects:
   fdac71a2-2ac8-4f45-9e50-8b4cb769aa0a:
@@ -10,5 +10,5 @@ effects:
     weight: 1
     data:
       width: 300
-      height: 300
+      height: null
       upscale: false

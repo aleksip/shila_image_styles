@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-name: max_150
+name: max_150x
 label: '150'
 effects:
   34128898-f04f-4a2c-8cab-78c2c2bdb725:
@@ -10,5 +10,5 @@ effects:
     weight: 1
     data:
       width: 150
-      height: 150
+      height: null
       upscale: false

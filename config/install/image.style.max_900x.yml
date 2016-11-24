@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-name: max_900
+name: max_900x
 label: '900'
 effects:
   f4bb2a65-483f-4eb7-bccf-4c75429e9384:
@@ -10,5 +10,5 @@ effects:
     weight: 1
     data:
       width: 900
-      height: 900
+      height: null
       upscale: false

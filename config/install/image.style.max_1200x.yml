@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-name: max_1200
+name: max_1200x
 label: '1200'
 effects:
   7d410254-aecf-4a4e-ae04-b16326e33206:
@@ -10,5 +10,5 @@ effects:
     weight: 1
     data:
       width: 1200
-      height: 1200
+      height: null
       upscale: false

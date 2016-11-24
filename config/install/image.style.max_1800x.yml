@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-name: max_1800
+name: max_1800x
 label: '1800'
 effects:
   a417c36f-b443-4153-a569-ea54b8a8da28:
@@ -10,5 +10,5 @@ effects:
     weight: 1
     data:
       width: 1800
-      height: 1800
+      height: null
       upscale: false

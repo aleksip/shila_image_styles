@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: max_600x
+label: '600'
+effects:
+  8492de54-09e1-464b-96f1-d7a36e591fd0:
+    uuid: 8492de54-09e1-464b-96f1-d7a36e591fd0
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: false
