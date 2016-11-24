@@ -1,0 +1,54 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.max_150
+    - image.style.max_300
+    - image.style.max_600
+  module:
+    - shila_core
+id: quarter
+label: Quarter
+image_style_mappings:
+  -
+    breakpoint_id: shila_core.l
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: max_300
+  -
+    breakpoint_id: shila_core.l
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: max_600
+  -
+    breakpoint_id: shila_core.m
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: max_300
+  -
+    breakpoint_id: shila_core.m
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: max_600
+  -
+    breakpoint_id: shila_core.s
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: max_300
+  -
+    breakpoint_id: shila_core.s
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: max_600
+  -
+    breakpoint_id: shila_core.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: max_150
+  -
+    breakpoint_id: shila_core.xs
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: max_300
+breakpoint_group: shila_core
+fallback_image_style: max_150

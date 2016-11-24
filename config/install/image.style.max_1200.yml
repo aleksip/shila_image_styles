@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: max_1200
+label: '1200'
+effects:
+  7d410254-aecf-4a4e-ae04-b16326e33206:
+    uuid: 7d410254-aecf-4a4e-ae04-b16326e33206
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: 1200
+      upscale: false

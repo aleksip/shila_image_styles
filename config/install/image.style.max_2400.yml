@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: max_2400
+label: '2400'
+effects:
+  03a4fa2e-6238-47a2-9560-7a35dac8e11a:
+    uuid: 03a4fa2e-6238-47a2-9560-7a35dac8e11a
+    id: image_scale
+    weight: 1
+    data:
+      width: 2400
+      height: 2400
+      upscale: false

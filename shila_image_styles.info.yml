@@ -1,0 +1,9 @@
+name: 'Shila Image Styles'
+type: module
+core: 8.x
+dependencies:
+  - image
+  - responsive_image
+  - shila_core
+package: Shila
+description: 'Provides image styles.'

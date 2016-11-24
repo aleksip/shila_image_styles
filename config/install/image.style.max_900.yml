@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: max_900
+label: '900'
+effects:
+  f4bb2a65-483f-4eb7-bccf-4c75429e9384:
+    uuid: f4bb2a65-483f-4eb7-bccf-4c75429e9384
+    id: image_scale
+    weight: 1
+    data:
+      width: 900
+      height: 900
+      upscale: false

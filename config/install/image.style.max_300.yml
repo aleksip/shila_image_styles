@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: max_300
+label: '300'
+effects:
+  fdac71a2-2ac8-4f45-9e50-8b4cb769aa0a:
+    uuid: fdac71a2-2ac8-4f45-9e50-8b4cb769aa0a
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      upscale: false
