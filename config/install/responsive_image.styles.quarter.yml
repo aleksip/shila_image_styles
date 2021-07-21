@@ -6,49 +6,49 @@ dependencies:
     - image.style.max_300x
     - image.style.max_600x
   module:
-    - shila_core
+    - shila_image_styles
 id: quarter
 label: Quarter
 image_style_mappings:
   -
-    breakpoint_id: shila_core.l
+    breakpoint_id: shila_breakpoints.l
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: max_300x
   -
-    breakpoint_id: shila_core.l
+    breakpoint_id: shila_breakpoints.l
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: max_600x
   -
-    breakpoint_id: shila_core.m
+    breakpoint_id: shila_breakpoints.m
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: max_300x
   -
-    breakpoint_id: shila_core.m
+    breakpoint_id: shila_breakpoints.m
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: max_600x
   -
-    breakpoint_id: shila_core.s
+    breakpoint_id: shila_breakpoints.s
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: max_300x
   -
-    breakpoint_id: shila_core.s
+    breakpoint_id: shila_breakpoints.s
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: max_600x
   -
-    breakpoint_id: shila_core.xs
+    breakpoint_id: shila_breakpoints.xs
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: max_150x
   -
-    breakpoint_id: shila_core.xs
+    breakpoint_id: shila_breakpoints.xs
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: max_300x
-breakpoint_group: shila_core
+breakpoint_group: shila_image_styles
 fallback_image_style: max_150x

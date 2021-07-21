@@ -1,10 +1,8 @@
 name: 'Shila Image Styles'
 type: module
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: '^8.9 || ^9'
 dependencies:
-  - image
-  - responsive_image
-  - shila_core
+  - 'drupal:image'
+  - 'drupal:responsive_image'
 package: Shila
 description: 'Provides image styles.'
